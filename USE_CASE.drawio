@@ -1,0 +1,71 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.11">
+  <diagram name="Страница — 1" id="aryHsX5QUmiYeF4UGLvz">
+    <mxGraphModel dx="934" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IEN4jgWA84ouXk4IXU4M-1" value="Программный модуль «ПРОИЗВОДСТВО» (оценка затрат ткани)&amp;nbsp;" style="swimlane;whiteSpace=wrap;html=1;startSize=40;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="260" width="280" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="IEN4jgWA84ouXk4IXU4M-3" value="Загрузить заказ" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="IEN4jgWA84ouXk4IXU4M-1">
+          <mxGeometry x="65" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IEN4jgWA84ouXk4IXU4M-5" value="Группировать изделия по ткани" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="IEN4jgWA84ouXk4IXU4M-1">
+          <mxGeometry x="40" y="120" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IEN4jgWA84ouXk4IXU4M-7" value="Получить результат раскроя" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="IEN4jgWA84ouXk4IXU4M-1">
+          <mxGeometry x="50" y="300" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IEN4jgWA84ouXk4IXU4M-6" value="Запустить алгоритм раскроя" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="IEN4jgWA84ouXk4IXU4M-1">
+          <mxGeometry x="40" y="210" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IEN4jgWA84ouXk4IXU4M-8" value="Просмотр карты раскроя" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="IEN4jgWA84ouXk4IXU4M-1">
+          <mxGeometry x="40" y="380" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IEN4jgWA84ouXk4IXU4M-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IEN4jgWA84ouXk4IXU4M-2" target="IEN4jgWA84ouXk4IXU4M-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="175" />
+              <mxPoint x="200" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEN4jgWA84ouXk4IXU4M-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IEN4jgWA84ouXk4IXU4M-2" target="IEN4jgWA84ouXk4IXU4M-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="175" />
+              <mxPoint x="200" y="155" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEN4jgWA84ouXk4IXU4M-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IEN4jgWA84ouXk4IXU4M-2" target="IEN4jgWA84ouXk4IXU4M-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="175" />
+              <mxPoint x="200" y="245" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEN4jgWA84ouXk4IXU4M-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IEN4jgWA84ouXk4IXU4M-2" target="IEN4jgWA84ouXk4IXU4M-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="175" />
+              <mxPoint x="200" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEN4jgWA84ouXk4IXU4M-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IEN4jgWA84ouXk4IXU4M-2" target="IEN4jgWA84ouXk4IXU4M-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="175" />
+              <mxPoint x="200" y="415" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEN4jgWA84ouXk4IXU4M-2" value="Менеджер" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="110" y="130" width="50" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
